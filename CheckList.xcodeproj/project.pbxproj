@@ -21,6 +21,42 @@
 		F303AECA18C763E400BD3643 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F303AEAC18C763E400BD3643 /* UIKit.framework */; };
 		F303AED218C763E400BD3643 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F303AED018C763E400BD3643 /* InfoPlist.strings */; };
 		F303AED418C763E400BD3643 /* CheckListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F303AED318C763E400BD3643 /* CheckListTests.m */; };
+		F325299118D5F80A007E6433 /* AllListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F325299018D5F80A007E6433 /* AllListsViewController.m */; };
+		F32A57C818CC20B80051ADF0 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F32A57C718CC20B80051ADF0 /* ItemDetailViewController.m */; };
+		F32E2AE518C8C8C400E1D5C8 /* Checklistitem.m in Sources */ = {isa = PBXBuildFile; fileRef = F32E2AE418C8C8C400E1D5C8 /* Checklistitem.m */; };
+		F35E177E18E1CC3C0005D0BE /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E177D18E1CC3C0005D0BE /* IconPickerViewController.m */; };
+		F39DD24C18E08C930046B4D3 /* Appointments.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23818E08C930046B4D3 /* Appointments.png */; };
+		F39DD24D18E08C930046B4D3 /* Appointments@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23918E08C930046B4D3 /* Appointments@2x.png */; };
+		F39DD24E18E08C930046B4D3 /* Birthdays.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23A18E08C930046B4D3 /* Birthdays.png */; };
+		F39DD24F18E08C930046B4D3 /* Birthdays@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23B18E08C930046B4D3 /* Birthdays@2x.png */; };
+		F39DD25018E08C930046B4D3 /* Chores.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23C18E08C930046B4D3 /* Chores.png */; };
+		F39DD25118E08C930046B4D3 /* Chores@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23D18E08C930046B4D3 /* Chores@2x.png */; };
+		F39DD25218E08C930046B4D3 /* Drinks.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23E18E08C930046B4D3 /* Drinks.png */; };
+		F39DD25318E08C930046B4D3 /* Drinks@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD23F18E08C930046B4D3 /* Drinks@2x.png */; };
+		F39DD25418E08C930046B4D3 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24018E08C930046B4D3 /* Folder.png */; };
+		F39DD25518E08C930046B4D3 /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24118E08C930046B4D3 /* Folder@2x.png */; };
+		F39DD25618E08C930046B4D3 /* Groceries.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24218E08C930046B4D3 /* Groceries.png */; };
+		F39DD25718E08C930046B4D3 /* Groceries@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24318E08C930046B4D3 /* Groceries@2x.png */; };
+		F39DD25818E08C930046B4D3 /* Inbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24418E08C930046B4D3 /* Inbox.png */; };
+		F39DD25918E08C930046B4D3 /* Inbox@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24518E08C930046B4D3 /* Inbox@2x.png */; };
+		F39DD25A18E08C930046B4D3 /* No Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24618E08C930046B4D3 /* No Icon.png */; };
+		F39DD25B18E08C930046B4D3 /* No Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24718E08C930046B4D3 /* No Icon@2x.png */; };
+		F39DD25C18E08C930046B4D3 /* Photos.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24818E08C930046B4D3 /* Photos.png */; };
+		F39DD25D18E08C930046B4D3 /* Photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24918E08C930046B4D3 /* Photos@2x.png */; };
+		F39DD25E18E08C930046B4D3 /* Trips.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24A18E08C930046B4D3 /* Trips.png */; };
+		F39DD25F18E08C930046B4D3 /* Trips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F39DD24B18E08C930046B4D3 /* Trips@2x.png */; };
+		F3B6014518E31114008C5AC6 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6013F18E31114008C5AC6 /* Icon-72.png */; };
+		F3B6014618E31114008C5AC6 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014018E31114008C5AC6 /* Icon-Small-50.png */; };
+		F3B6014718E31114008C5AC6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014118E31114008C5AC6 /* Icon-Small.png */; };
+		F3B6014818E31114008C5AC6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014218E31114008C5AC6 /* Icon-Small@2x.png */; };
+		F3B6014918E31114008C5AC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014318E31114008C5AC6 /* Icon.png */; };
+		F3B6014A18E31114008C5AC6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014418E31114008C5AC6 /* Icon@2x.png */; };
+		F3B6014D18E31294008C5AC6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014B18E31294008C5AC6 /* Default.png */; };
+		F3B6014E18E31294008C5AC6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B6014C18E31294008C5AC6 /* Default@2x.png */; };
+		F3C08CA918DFF14300D1233C /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C08CA818DFF14300D1233C /* DataModel.m */; };
+		F3D88E2F18E47C7200D9E9B0 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D88E2E18E47C7200D9E9B0 /* DatePickerViewController.m */; };
+		F3FFC33D18D88103001FD96E /* CheckList.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FFC33C18D88103001FD96E /* CheckList.m */; };
+		F3FFC34018D8941C001FD96E /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3FFC33F18D8941C001FD96E /* ListDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +89,50 @@
 		F303AECF18C763E400BD3643 /* CheckListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CheckListTests-Info.plist"; sourceTree = "<group>"; };
 		F303AED118C763E400BD3643 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F303AED318C763E400BD3643 /* CheckListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckListTests.m; sourceTree = "<group>"; };
+		F325298F18D5F80A007E6433 /* AllListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListsViewController.h; sourceTree = "<group>"; };
+		F325299018D5F80A007E6433 /* AllListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListsViewController.m; sourceTree = "<group>"; };
+		F32A57C618CC20B80051ADF0 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		F32A57C718CC20B80051ADF0 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		F32E2AE318C8C8C400E1D5C8 /* Checklistitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checklistitem.h; sourceTree = "<group>"; };
+		F32E2AE418C8C8C400E1D5C8 /* Checklistitem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checklistitem.m; sourceTree = "<group>"; };
+		F35E177C18E1CC3C0005D0BE /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconPickerViewController.h; sourceTree = "<group>"; };
+		F35E177D18E1CC3C0005D0BE /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconPickerViewController.m; sourceTree = "<group>"; };
+		F39DD23818E08C930046B4D3 /* Appointments.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Appointments.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Appointments.png"; sourceTree = "<group>"; };
+		F39DD23918E08C930046B4D3 /* Appointments@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Appointments@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Appointments@2x.png"; sourceTree = "<group>"; };
+		F39DD23A18E08C930046B4D3 /* Birthdays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Birthdays.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Birthdays.png"; sourceTree = "<group>"; };
+		F39DD23B18E08C930046B4D3 /* Birthdays@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Birthdays@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Birthdays@2x.png"; sourceTree = "<group>"; };
+		F39DD23C18E08C930046B4D3 /* Chores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Chores.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Chores.png"; sourceTree = "<group>"; };
+		F39DD23D18E08C930046B4D3 /* Chores@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Chores@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Chores@2x.png"; sourceTree = "<group>"; };
+		F39DD23E18E08C930046B4D3 /* Drinks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Drinks.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Drinks.png"; sourceTree = "<group>"; };
+		F39DD23F18E08C930046B4D3 /* Drinks@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Drinks@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Drinks@2x.png"; sourceTree = "<group>"; };
+		F39DD24018E08C930046B4D3 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Folder.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Folder.png"; sourceTree = "<group>"; };
+		F39DD24118E08C930046B4D3 /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Folder@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Folder@2x.png"; sourceTree = "<group>"; };
+		F39DD24218E08C930046B4D3 /* Groceries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Groceries.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Groceries.png"; sourceTree = "<group>"; };
+		F39DD24318E08C930046B4D3 /* Groceries@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Groceries@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Groceries@2x.png"; sourceTree = "<group>"; };
+		F39DD24418E08C930046B4D3 /* Inbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Inbox.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Inbox.png"; sourceTree = "<group>"; };
+		F39DD24518E08C930046B4D3 /* Inbox@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Inbox@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Inbox@2x.png"; sourceTree = "<group>"; };
+		F39DD24618E08C930046B4D3 /* No Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "No Icon.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/No Icon.png"; sourceTree = "<group>"; };
+		F39DD24718E08C930046B4D3 /* No Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "No Icon@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/No Icon@2x.png"; sourceTree = "<group>"; };
+		F39DD24818E08C930046B4D3 /* Photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Photos.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Photos.png"; sourceTree = "<group>"; };
+		F39DD24918E08C930046B4D3 /* Photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Photos@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Photos@2x.png"; sourceTree = "<group>"; };
+		F39DD24A18E08C930046B4D3 /* Trips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Trips.png; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Trips.png"; sourceTree = "<group>"; };
+		F39DD24B18E08C930046B4D3 /* Trips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Trips@2x.png"; path = "../../ebooks/apparentice bundle/2/The iOS Apprentice 2 - Checklists/Resources/Checklist Icons/Trips@2x.png"; sourceTree = "<group>"; };
+		F3B6013F18E31114008C5AC6 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F3B6014018E31114008C5AC6 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		F3B6014118E31114008C5AC6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		F3B6014218E31114008C5AC6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		F3B6014318E31114008C5AC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F3B6014418E31114008C5AC6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F3B6014B18E31294008C5AC6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F3B6014C18E31294008C5AC6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F3C08CA718DFF14300D1233C /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		F3C08CA818DFF14300D1233C /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		F3D88E2D18E47C7200D9E9B0 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		F3D88E2E18E47C7200D9E9B0 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		F3FFC33B18D88103001FD96E /* CheckList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckList.h; sourceTree = "<group>"; };
+		F3FFC33C18D88103001FD96E /* CheckList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckList.m; sourceTree = "<group>"; };
+		F3FFC33E18D8941C001FD96E /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDetailViewController.h; sourceTree = "<group>"; };
+		F3FFC33F18D8941C001FD96E /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +162,8 @@
 		F303AE9C18C763E400BD3643 = {
 			isa = PBXGroup;
 			children = (
+				F3B6014F18E312A1008C5AC6 /* Launch Images */,
+				F39DD26018E08CB60046B4D3 /* Icons */,
 				F303AEAE18C763E400BD3643 /* CheckList */,
 				F303AECD18C763E400BD3643 /* CheckListTests */,
 				F303AEA718C763E400BD3643 /* Frameworks */,
@@ -115,10 +197,26 @@
 				F303AEB718C763E400BD3643 /* CheckListAppDelegate.h */,
 				F303AEB818C763E400BD3643 /* CheckListAppDelegate.m */,
 				F303AEBA18C763E400BD3643 /* Main.storyboard */,
+				F3D88E2D18E47C7200D9E9B0 /* DatePickerViewController.h */,
+				F3D88E2E18E47C7200D9E9B0 /* DatePickerViewController.m */,
 				F303AEBD18C763E400BD3643 /* CheckListViewController.h */,
 				F303AEBE18C763E400BD3643 /* CheckListViewController.m */,
 				F303AEC018C763E400BD3643 /* Images.xcassets */,
 				F303AEAF18C763E400BD3643 /* Supporting Files */,
+				F32E2AE318C8C8C400E1D5C8 /* Checklistitem.h */,
+				F32E2AE418C8C8C400E1D5C8 /* Checklistitem.m */,
+				F32A57C618CC20B80051ADF0 /* ItemDetailViewController.h */,
+				F32A57C718CC20B80051ADF0 /* ItemDetailViewController.m */,
+				F325298F18D5F80A007E6433 /* AllListsViewController.h */,
+				F325299018D5F80A007E6433 /* AllListsViewController.m */,
+				F3FFC33B18D88103001FD96E /* CheckList.h */,
+				F3FFC33C18D88103001FD96E /* CheckList.m */,
+				F3FFC33E18D8941C001FD96E /* ListDetailViewController.h */,
+				F3FFC33F18D8941C001FD96E /* ListDetailViewController.m */,
+				F3C08CA718DFF14300D1233C /* DataModel.h */,
+				F3C08CA818DFF14300D1233C /* DataModel.m */,
+				F35E177C18E1CC3C0005D0BE /* IconPickerViewController.h */,
+				F35E177D18E1CC3C0005D0BE /* IconPickerViewController.m */,
 			);
 			path = CheckList;
 			sourceTree = "<group>";
@@ -150,6 +248,49 @@
 				F303AED018C763E400BD3643 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39DD26018E08CB60046B4D3 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6013F18E31114008C5AC6 /* Icon-72.png */,
+				F3B6014018E31114008C5AC6 /* Icon-Small-50.png */,
+				F3B6014118E31114008C5AC6 /* Icon-Small.png */,
+				F3B6014218E31114008C5AC6 /* Icon-Small@2x.png */,
+				F3B6014318E31114008C5AC6 /* Icon.png */,
+				F3B6014418E31114008C5AC6 /* Icon@2x.png */,
+				F39DD23818E08C930046B4D3 /* Appointments.png */,
+				F39DD23918E08C930046B4D3 /* Appointments@2x.png */,
+				F39DD23A18E08C930046B4D3 /* Birthdays.png */,
+				F39DD23B18E08C930046B4D3 /* Birthdays@2x.png */,
+				F39DD23C18E08C930046B4D3 /* Chores.png */,
+				F39DD23D18E08C930046B4D3 /* Chores@2x.png */,
+				F39DD23E18E08C930046B4D3 /* Drinks.png */,
+				F39DD23F18E08C930046B4D3 /* Drinks@2x.png */,
+				F39DD24018E08C930046B4D3 /* Folder.png */,
+				F39DD24118E08C930046B4D3 /* Folder@2x.png */,
+				F39DD24218E08C930046B4D3 /* Groceries.png */,
+				F39DD24318E08C930046B4D3 /* Groceries@2x.png */,
+				F39DD24418E08C930046B4D3 /* Inbox.png */,
+				F39DD24518E08C930046B4D3 /* Inbox@2x.png */,
+				F39DD24618E08C930046B4D3 /* No Icon.png */,
+				F39DD24718E08C930046B4D3 /* No Icon@2x.png */,
+				F39DD24818E08C930046B4D3 /* Photos.png */,
+				F39DD24918E08C930046B4D3 /* Photos@2x.png */,
+				F39DD24A18E08C930046B4D3 /* Trips.png */,
+				F39DD24B18E08C930046B4D3 /* Trips@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		F3B6014F18E312A1008C5AC6 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3B6014B18E31294008C5AC6 /* Default.png */,
+				F3B6014C18E31294008C5AC6 /* Default@2x.png */,
+			);
+			name = "Launch Images";
+			path = CheckList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +370,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F39DD25D18E08C930046B4D3 /* Photos@2x.png in Resources */,
+				F3B6014A18E31114008C5AC6 /* Icon@2x.png in Resources */,
+				F39DD25A18E08C930046B4D3 /* No Icon.png in Resources */,
+				F39DD24D18E08C930046B4D3 /* Appointments@2x.png in Resources */,
+				F39DD25618E08C930046B4D3 /* Groceries.png in Resources */,
+				F39DD25918E08C930046B4D3 /* Inbox@2x.png in Resources */,
+				F3B6014518E31114008C5AC6 /* Icon-72.png in Resources */,
+				F39DD25718E08C930046B4D3 /* Groceries@2x.png in Resources */,
+				F39DD25018E08C930046B4D3 /* Chores.png in Resources */,
+				F39DD25318E08C930046B4D3 /* Drinks@2x.png in Resources */,
 				F303AEC118C763E400BD3643 /* Images.xcassets in Resources */,
+				F39DD24F18E08C930046B4D3 /* Birthdays@2x.png in Resources */,
+				F39DD25418E08C930046B4D3 /* Folder.png in Resources */,
+				F3B6014E18E31294008C5AC6 /* Default@2x.png in Resources */,
+				F3B6014918E31114008C5AC6 /* Icon.png in Resources */,
+				F3B6014818E31114008C5AC6 /* Icon-Small@2x.png in Resources */,
+				F39DD25B18E08C930046B4D3 /* No Icon@2x.png in Resources */,
+				F39DD25E18E08C930046B4D3 /* Trips.png in Resources */,
+				F39DD25218E08C930046B4D3 /* Drinks.png in Resources */,
+				F39DD25118E08C930046B4D3 /* Chores@2x.png in Resources */,
+				F3B6014D18E31294008C5AC6 /* Default.png in Resources */,
+				F3B6014718E31114008C5AC6 /* Icon-Small.png in Resources */,
+				F39DD24E18E08C930046B4D3 /* Birthdays.png in Resources */,
+				F3B6014618E31114008C5AC6 /* Icon-Small-50.png in Resources */,
+				F39DD25C18E08C930046B4D3 /* Photos.png in Resources */,
+				F39DD24C18E08C930046B4D3 /* Appointments.png in Resources */,
+				F39DD25818E08C930046B4D3 /* Inbox.png in Resources */,
+				F39DD25518E08C930046B4D3 /* Folder@2x.png in Resources */,
 				F303AEB318C763E400BD3643 /* InfoPlist.strings in Resources */,
 				F303AEBC18C763E400BD3643 /* Main.storyboard in Resources */,
+				F39DD25F18E08C930046B4D3 /* Trips@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +419,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3D88E2F18E47C7200D9E9B0 /* DatePickerViewController.m in Sources */,
 				F303AEB518C763E400BD3643 /* main.m in Sources */,
+				F35E177E18E1CC3C0005D0BE /* IconPickerViewController.m in Sources */,
+				F32A57C818CC20B80051ADF0 /* ItemDetailViewController.m in Sources */,
+				F3C08CA918DFF14300D1233C /* DataModel.m in Sources */,
+				F3FFC33D18D88103001FD96E /* CheckList.m in Sources */,
+				F3FFC34018D8941C001FD96E /* ListDetailViewController.m in Sources */,
+				F325299118D5F80A007E6433 /* AllListsViewController.m in Sources */,
 				F303AEB918C763E400BD3643 /* CheckListAppDelegate.m in Sources */,
 				F303AEBF18C763E400BD3643 /* CheckListViewController.m in Sources */,
+				F32E2AE518C8C8C400E1D5C8 /* Checklistitem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +560,7 @@
 				GCC_PREFIX_HEADER = "CheckList/CheckList-Prefix.pch";
 				INFOPLIST_FILE = "CheckList/CheckList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -396,6 +574,7 @@
 				GCC_PREFIX_HEADER = "CheckList/CheckList-Prefix.pch";
 				INFOPLIST_FILE = "CheckList/CheckList-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +640,7 @@
 				F303AED918C763E400BD3643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F303AEDA18C763E400BD3643 /* Build configuration list for PBXNativeTarget "CheckListTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +649,7 @@
 				F303AEDC18C763E400BD3643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
